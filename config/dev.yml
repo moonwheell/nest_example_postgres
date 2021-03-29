@@ -1,0 +1,12 @@
+db:
+  type: 'postgres'
+  host: 'localhost'
+  username: 'postgres'
+  password: 'postgres'
+  port: 5432
+  database: 'taskmanagment'
+  synchronize: true
+
+jwt:
+  secret: 'topSecret51'
+  expiresIn: 3600
